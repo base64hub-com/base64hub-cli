@@ -25,9 +25,9 @@ $ b64 --url --no-pad "Привет"
 | macOS, Linux (Homebrew) | `brew install base64hub-com/tap/b64` |
 | Windows (Scoop) | `scoop bucket add base64hub https://github.com/base64hub-com/homebrew-tap` then `scoop install b64` |
 | Windows (winget) | `winget install base64hub.b64` |
-| Arch Linux (AUR) | `yay -S b64-bin` |
 | macOS, Linux (script) | `curl -fsSL https://base64hub.com/install.sh \| sh` |
 | Go 1.24+ | `go install github.com/base64hub-com/base64hub-cli/cmd/b64@latest` |
+| Docker | `docker run --rm -i ghcr.io/base64hub-com/b64 < file` |
 | Node.js | `npm i -g base64hub` |
 | Python | `pipx install base64hub` |
 
